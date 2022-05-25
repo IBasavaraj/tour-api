@@ -1,0 +1,24 @@
+input[type=text] {
+    width: 100%;
+    padding: .75rem;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+    resize: vertical;
+  }
+  
+  label {
+    padding: .75rem .75rem .75rem 0;
+    display: inline-block;
+  }
+  .container {
+    border-radius: .3125rem;
+    background-color: #b1b0b0;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
